@@ -6,7 +6,7 @@ async function sendDiscordMessage() {
 
     const error_pbo = process.argv[2];
 
-    const content = `PBO ${error_pbo} fechado com sucesso`;
+    const content = `✅ **${error_pbo}**\n`;
 
     await fetch(discord_webhook, {
         method: 'POST',
@@ -18,3 +18,5 @@ async function sendDiscordMessage() {
         })
     });
 }
+
+sendDiscordMessage().catch(console.error);
