@@ -10,7 +10,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "test1iqwdu",
+            "test1wdu",
         };
     };
 };
