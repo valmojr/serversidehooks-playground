@@ -2,9 +2,15 @@ class CfgPatches
 {
     class testpbo
     {
-        units[] = {};
-        weapons[] = {};
+        units[] = {
+
+        };
+        weapons[] = {
+
+        };
         requiredVersion = 0.1;
-        requiredAddons[] = {};
+        requiredAddons[] = {
+
+        };
     };
 };
