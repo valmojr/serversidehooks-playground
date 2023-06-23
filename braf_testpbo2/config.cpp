@@ -10,7 +10,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "test1212iu33aiu",
+            "testu33aiu",
         };
     };
 };
