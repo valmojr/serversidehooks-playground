@@ -4,7 +4,7 @@ async function sendDiscordMessage() {
     const error_pbo = process.argv[2];
     const error_message = process.argv[3];
 
-    const content = `⛔ **${error_pbo}**\n\n` + "```" + error_message + "```";
+    const content = `⛔ ${error_pbo}\n\n` + "```" + error_message + "```";
 
     await fetch(discord_webhook, {
         method: 'POST',
