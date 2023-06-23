@@ -10,7 +10,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "testu33aiu",
+            "te33aiu",
         };
     };
 };
