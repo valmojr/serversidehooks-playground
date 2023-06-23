@@ -6,6 +6,8 @@ async function sendDiscordMessage() {
 
     const content = `⛔ ${error_pbo}\n\n` + "```" + error_message + "```";
 
+    console.log("ERROR: " + error_message);
+
     await fetch(discord_webhook, {
         method: 'POST',
         headers: {
