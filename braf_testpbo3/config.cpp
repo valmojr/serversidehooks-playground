@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class testpbo
+    class testpbo3
     {
         units[] = {
 
@@ -10,7 +10,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "test1iqwdu",
+            "test1212iu33aiu",
         };
     };
 };
