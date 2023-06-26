@@ -1,4 +1,14 @@
 {
     "PACKING_DIRECTORY": "P:/serversidehookstesting",
-    "KEY_DIRECTORY": "D:/OnGoingMods/keys/braf.biprivatekey"
+    "KEY_DIRECTORY": "D:/OnGoingMods/keys/braf.biprivatekey",
+    "developers": {
+        "valmo" : "272187905240203266",
+        "OdysseusBR" : "422112530362662938",
+        "diogo" : "735566217884205109",
+        "brasiel" : "340495970208841731",
+        "johnhansen" : "210511529018261515",
+        "portilho" : "994341590250303538",
+        "araquem" : "286196616925544448",
+        "Rodrigo_Arantes" : "251444613963841539"
+    }
 }

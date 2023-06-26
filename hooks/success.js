@@ -11,7 +11,9 @@ async function sendDiscordMessage() {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            content
+            content,
+            avatar_url: 'https://noticiasdatv.uol.com.br/media/_versions/sandro_rocha_tropa_de_elite_free_big.jpg',
+            username: 'Rocha',
         })
     });
 }
