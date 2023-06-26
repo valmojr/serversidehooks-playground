@@ -20,6 +20,6 @@ class CfgVehicles
     class testeveiculo
     {
         id = 3;
-        model = "\serversidehookstesting\braf_testpbo4\config.p3d"
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
     };
 };
