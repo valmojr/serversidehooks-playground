@@ -26,9 +26,9 @@ async function sendDiscordMessage() {
 
         if (data.length > maxMessageLength) {
             const startIndex = data.length - maxMessageLength;
-            content = `⛔ ${error_pbo}\n` + '\n' + `${commit_author} - ${commit_hash} - ${commit_message}` + "\n```\n" + data.slice(startIndex) + "\n```";
+            content = `⛔ ${error_pbo}\n` + '\n' + `${commit_author} - ${commit_hash} - ${commit_message}` + "\n```\n" + data.slice(startIndex) + "\n```" + "\nArrume essa merda";
           } else {
-            content = `⛔ ${error_pbo}\n` + '\n' + `${commit_author} - ${commit_hash} - ${commit_message}` + "\n```\n" + data + "\n```";
+            content = `⛔ ${error_pbo}\n` + '\n' + `${commit_author} - ${commit_hash} - ${commit_message}` + "\n```\n" + data + "\n```" + "\nArrume essa merda";
           }
 
         await fetch(discord_webhook, {

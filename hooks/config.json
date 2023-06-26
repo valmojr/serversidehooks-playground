@@ -10,5 +10,21 @@
         "portilho" : "994341590250303538",
         "araquem" : "286196616925544448",
         "Rodrigo_Arantes" : "251444613963841539"
-    }
+    },
+    "non_obfuscated" : [
+        "braf_damage",
+        "braf_hurt",
+        "braf_insignia",
+        "braf_sar",
+        "braf_sounds",
+        "braf_weapons_core"
+    ],
+    "old_mikero": [
+        "braf_air",
+        "braf_armored",
+        "braf_boat",
+        "braf_soft",
+        "braf_static_anim",
+        "braf_weapons_anim"
+    ]
 }
