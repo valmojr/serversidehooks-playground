@@ -22,4 +22,29 @@ class CfgVehicles
         id = 2;
         model = "\serversidehookstesting\braf_testpbo4\config.p3d";
     };
+    class testeveiculo1
+    {
+        id = 2;
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
+    };
+    class testeveiculo2
+    {
+        id = 2;
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
+    };
+    class testeveiculo3
+    {
+        id = 2;
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
+    };
+    class testeveiculo4
+    {
+        id = 2;
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
+    };
+    class testeveiculo5
+    {
+        id = 2;
+        model = "\serversidehookstesting\braf_testpbo4\config.p3d";
+    };
 };
